@@ -2,7 +2,7 @@ import { useState} from 'react'
 
 
 
-function Square({ value }){
+function Square(){
   const [value, setValue] = useState(null);
 
   function handleClick(){
@@ -41,9 +41,9 @@ export default function Board() {
 
   <div className="board-row"> 
   
-  <Square  value="7"/>
-  <Square  value="8"/>
-  <Square  value="9"/>
+  <Square  />
+  <Square />
+  <Square  />
 
   </div>
 
